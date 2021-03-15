@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Vehicle Value API</title>
+    </head>
+    <body>
+        <form id="form" action="http://localhost:3000/api/value" method="GET">
+            <label for="value">Value:</label>
+            <input type="number" id="value" name="value" value=10000><br><br>
+            <label for="make">Make:</label>
+            <input type="text" id="make" name="make" value="Ford"><br><br>
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model" value="Focus"><br><br>
+            <label for="age">Age (months):</label>
+            <input type="number" id="age" name="age" value=24><br><br>
+            <label for="owners">Past owners:</label>
+            <input type="number" id="owners" name="owners" value=3><br><br>
+            <label for="mileage">Mileage (optional):</label>
+            <input type="number" id="mileage" name="mileage"><br><br>
+            <label for="collisions">Collisions (optional):</label>
+            <input type="number" id="collisions" name="collisions"><br><br>
+            <button type="submit">Submit</button>
+          </form>
+    </body>
+</html>
